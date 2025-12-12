@@ -1,0 +1,28 @@
+# Metaheuristic Optimization for the Traveling Salesman Problem (TSP)
+CS467 – Course Project
+
+---
+
+## Project Description
+This project aims to solve the **Traveling Salesman Problem (TSP)** using two metaheuristic optimization algorithms:
+
+- Simulated Annealing (SA)
+- Genetic Algorithm (GA)
+
+The main goal is to compare the performance of both algorithms in terms of:
+- Solution quality (tour distance)
+- Convergence behavior
+- Execution time
+
+A standard benchmark dataset is used, and each algorithm is executed using predefined stopping conditions to ensure a fair and consistent comparison.
+
+---
+
+## Problem Overview: Traveling Salesman Problem (TSP)
+The Traveling Salesman Problem is a classic optimization problem.  
+Given a set of cities and the distances between them, the objective is to find the **shortest possible tour** that:
+
+- Visits each city exactly once
+- Returns to the starting city
+
+TSP is classified as an **NP-hard problem**, meaning that finding the exact optimal solution becomes very difficult as the number of cities increases. Therefore, metaheuristic algorithms are commonly used to find good approximate solutions within reasonable time.
