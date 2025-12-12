@@ -26,3 +26,30 @@ Given a set of cities and the distances between them, the objective is to find t
 - Returns to the starting city
 
 TSP is classified as an **NP-hard problem**, meaning that finding the exact optimal solution becomes very difficult as the number of cities increases. Therefore, metaheuristic algorithms are commonly used to find good approximate solutions within reasonable time.
+
+# A. Requirements & Installation
+
+This project was developed and executed entirely using **Google Colab**, so no local installation is required.
+
+The following Python libraries are used:
+- numpy
+- matplotlib
+- random
+- math
+- tsplib95
+
+The `tsplib95` library is used to load and read TSP datasets in TSPLIB format.
+
+No additional setup, package installation, or environment configuration is needed beyond what Google Colab provides by default.
+
+## Dataset
+This project uses a benchmark dataset from **TSPLIB**, which is a well-known library of standard test problems for the Traveling Salesman Problem (TSP).
+
+The dataset represents a set of cities along with the distances between each pair of cities. It is provided in the `.tsp` format, which is commonly used in academic research for evaluating and comparing optimization algorithms.
+
+Using a standard dataset helps ensure that the comparison between Simulated Annealing and Genetic Algorithm is fair and consistent.
+
+Example dataset used in this project:
+- `berlin52.tsp`
+
+
